@@ -16,15 +16,15 @@
   margin-left: 25px;
 }
 
-.navBtn.active {
+/* .navBtn.active {
   background-color: rgb(216, 221, 221);
   color: #000000;
   box-shadow: none;
-}
+} */
 
-/* .navBtn:hover,
+.navBtn:hover,
 .navBtn:focus {
   background-color: rgb(216, 221, 221);
     color: #000000;
     box-shadow: none;
-} */
+}
