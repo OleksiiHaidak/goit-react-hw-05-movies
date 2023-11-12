@@ -1,0 +1,31 @@
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.listItem {
+    font-size: 20px;
+    line-height: 1.4;
+    list-style: none;
+    text-decoration: none;
+    color: rgb(118, 124, 125); 
+}
+
+.listItem:hover,
+.listItem:focus {
+    color: rgb(178, 187, 188);
+}
+
+.listItem span {
+    cursor: pointer;
+}
+
+.title {
+    font-size: 30px;
+    color: rgb(118, 124, 125);
+}
+
+.loading {
+    font-size: 20px;
+    color: rgb(118, 124, 125);
+}

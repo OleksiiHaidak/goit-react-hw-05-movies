@@ -1,0 +1,9 @@
+.review {
+    list-style: none;
+    color: rgb(118, 124, 125);
+    padding: 0;
+}
+
+.reviewItem {
+    padding-bottom: 30px;
+}

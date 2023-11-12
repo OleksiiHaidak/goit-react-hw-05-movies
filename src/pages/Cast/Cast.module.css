@@ -1,0 +1,20 @@
+.cardLst {
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    list-style: none;
+    color: rgb(118, 124, 125);
+    padding: 0;
+
+}
+
+.title {
+    padding-bottom: 25px;
+    line-height: 1.4;
+    flex-basis: calc((100% - 2 * 10px) / 3);
+    margin-right: 5px;
+
+   
+}
+

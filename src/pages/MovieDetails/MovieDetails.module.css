@@ -1,0 +1,81 @@
+.loading {
+    font-size: 20px;
+    color: rgb(118, 124, 125);
+}
+
+.mainContainer {
+    display: flex;
+    padding: 15px 0 30px 0;
+    font-size: 20px;
+    line-height: 1.4;
+    color: rgb(118, 124, 125);
+}
+
+.container {
+    display: flex;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+.secondContainer {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    line-height: 1.4;
+    padding: 20px 0 20px 0;
+    border-bottom: solid 2px rgb(86, 91, 92);
+    border-top: solid 2px rgb(86, 91, 92);
+    color: rgb(118, 124, 125);
+}
+
+.link {
+    font-size: 18px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: rgb(171, 181, 182);
+}
+
+.link:hover,
+.link:focus {
+    color: rgb(215, 224, 225);
+}
+
+.mainTitle {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(173, 182, 183);
+}
+
+.secondTitle {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.thirdTitle {
+    text-decoration: underline;
+}
+
+.btnGoBack {
+    margin-top: 10px;
+    text-decoration: none;
+    color: rgb(156, 165, 166);
+    font-size: 14px;
+    padding: 10px 15px;
+    display: inline-flex;
+    border: none;
+    border-radius: 8px;
+    transition: all 0.4s;
+    box-shadow: 0px 1px 2px rgb(208, 220, 221);
+}
+
+.btnGoBack:hover,
+.btnGoBack:focus {
+    background-color: rgb(216, 221, 221);
+    color: #000000;
+    box-shadow: none;
+}
